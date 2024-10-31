@@ -1,0 +1,1 @@
+jQuery(function($){$(".xml-url").on("change",function(){console.log("test")})});

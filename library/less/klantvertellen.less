@@ -1,0 +1,495 @@
+@border-color: #bebed5;
+@main-color: #292873;
+
+p.kbp-settings {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+label h4 {
+	margin-bottom: 5px;
+}
+
+input[type="text"].xml-url {
+	padding: 10px;
+	font-size: 14px;
+}
+
+.big-textarea {
+	height: 200px;
+	width: 95%;
+	resize: none;
+}
+
+.xml-url {
+	width: 450px;
+	min-width: 25%;
+}
+
+.extra-space {
+	margin-bottom: 30px;
+}
+
+.pdf-large {
+	font-size: 30px !important;
+}
+
+// Styling for the configurator
+.klantenvertellen-center {
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+
+	.klantenvertellen-general-loop {
+
+		.klantenvertellen-left,
+		.klantenvertellen-center,
+		.klantenvertellen-right {
+			width: 100% !important;
+			float: none !important;
+			display: block !important;
+		}
+	}
+
+	.klantenvertellen-loop {
+		.klantenvertellen-left,
+		.klantenvertellen-right {
+			width: 100% !important;
+			float: none !important;
+			display: block !important;
+		}
+	}
+
+	.kbp-column-4,
+	.kbp-column-6,
+	.kbp-column-12 {
+		width: 100% !important;
+		padding: 0 !important;
+		float: none !important;
+	}
+
+	.klantenvertellen-loop {
+		.klantenvertellen-experience {
+			width: 70% !important;
+		}
+	}
+
+	.klantenvertellen-review {
+
+		.klantenvertellen-experience  {
+			width: 80% !important;
+
+			&:before {
+				left: -40px !important;
+			}
+
+			&:after {
+				right: -20px !important;
+			}
+		}
+	}
+
+}
+
+@media (max-width: 992px) {
+	.klantenvertellen-general-loop {
+
+		.klantenvertellen-left,
+		.klantenvertellen-center,
+		.klantenvertellen-right {
+			width: 100% !important;
+			float: none !important;
+			display: block !important;
+		}
+	}
+
+	.klantenvertellen-loop {
+		.klantenvertellen-left,
+		.klantenvertellen-right {
+			width: 100% !important;
+			float: none !important;
+			display: block !important;
+		}
+	}
+}
+
+#nxs-container .klantenvertellen-general-loop,
+#nxs-container .klantenvertellen-loop {
+	.klantenvertellen-left,
+	.klantenvertellen-center,
+	.klantenvertellen-right {
+		table {
+			border: none !important;
+
+			td {
+				width: 78%;
+			}
+		}
+	}
+}
+
+.klantenvertellen-general-loop {
+
+	.klantenvertellen-left,
+	.klantenvertellen-center,
+	.klantenvertellen-right {
+		width: 33%;
+		display: inline-block;
+		float: left;
+
+		table {
+			border: none !important;
+			background-color: transparent !important;
+
+			tr {
+				background: none !important;
+
+				td {
+					text-align: left;
+					border: none !important;
+				}
+			}
+		}
+	}
+
+	.klantenvertellen-left {
+		margin-top: 20px;
+	}
+
+	.klantenvertellen-center,
+	.klantenvertellen-right {
+		margin-top: 50px;
+	}
+
+	.klantenvertellen-big-average {
+		font-size: 50px;
+		line-height: 100px;
+		display: block;
+  		text-align: center;
+  		font-weight: bold;
+  		margin-bottom: 2px;
+	}
+
+	#klantenvertellen-customers {
+		font-size: 16px;
+		line-height: 20px;
+		color: black;
+	}
+
+}
+
+.klantenvertellen-label {
+	line-height: 14px !important;
+	font-size: 12px !important;
+}
+
+.klantenvertellen-rating {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.klantenvertellen-loop {
+	clear: both;
+	border-bottom: 3px solid #ececec;
+	margin-top: 50px;
+
+	&:first-of-type {
+		margin-top: 0px !important;
+	}
+
+
+	.klantenvertellen-loop-header {
+		font-size: 20px;
+		border-bottom: 2px solid #cecece;
+
+		span.klantenvertellen-loop-datum {
+			font-size: 14px;
+		}
+	}
+
+	.klantenvertellen-loop-data {
+		font-size: 18px;
+		line-height: 24px;
+		margin-top: 12px;
+	}
+
+	.klantenvertellen-left,
+	.klantenvertellen-right {
+		margin-top: 25px;
+		width: 50%;
+		float: left;
+
+		table {
+			border: none !important;
+			background-color: transparent !important;
+
+			tr {
+				background: none !important;
+
+				td {
+					border: none !important;
+				}
+			}
+		}
+	}
+
+	.klantenvertellen-average {
+		display: block;
+		font-size: 30px;
+		line-height: 52px;
+		margin-top: 25px;
+		margin-bottom: 25px;
+		clear: both;
+		text-align: right;
+
+		.klantenvertellen-big-average {
+			font-size: 45px;
+			line-height: 100px;
+			font-weight: bold;
+		}
+	}
+
+	.klantenvertellen-experience {
+		position: relative;
+		width: 90%;
+		display: block;
+		font-size: 15px;
+		line-height: 1.625;
+		font-style: italic;
+		text-align: center;
+		padding: 20px 40px;
+		margin: 0 auto;
+
+		&:before {
+			background-image: url('../img/blockquote-before.png');
+			content: '\0020';
+			position: absolute;
+			left: 0px;
+			display: inline-block;
+			width: 50px;
+			height: 33px;
+		}
+
+		&:after {
+			background-image: url('../img/blockquote-after.png');
+			content: '\0020';
+			display: inline-block;
+			width: 50px;
+			height: 33px;
+			position: absolute;
+			right: 0px;
+			bottom: 0;
+		}
+	}
+
+
+}
+
+
+.klantenvertellen-loop-reaction {
+	display: block;
+	font-size: 15px;
+	line-height: 1.625;
+	font-style: italic;
+	text-align: center;
+	margin: 20px 40px;
+}
+
+
+.kbp-column-4 {
+	width: 30%;
+	float: left;
+	padding: 0 15px;
+}
+
+.kbp-column-6 {
+	width: 45%;
+	float: left;
+	padding: 0 15px;
+}
+
+.kbp-column-12 {
+	width: 100%;
+	float: left;
+	padding: 0 15px;
+}
+
+.klantenvertellen-review {
+
+	.klantenvertellen-review-header {
+		border-bottom: 2px solid #cecece;
+	}
+
+	.klantenvertellen-review-data {
+		.klantenvertellen-review-average {
+			float: right;
+			font-size: 17px;
+		}
+	}
+
+	.klantenvertellen-experience {
+		position: relative;
+		width: 90%;
+		display: block;
+		font-size: 15px;
+		line-height: 1.625;
+		font-style: italic;
+		text-align: center;
+		padding: 20px 40px;
+		margin: 0 auto;
+
+		&:before {
+			background-image: url('../img/blockquote-before.png');
+			content: '\0020';
+			position: absolute;
+			left: 0px;
+			display: inline-block;
+			width: 50px;
+			height: 33px;
+		}
+
+		&:after {
+			background-image: url('../img/blockquote-after.png');
+			content: '\0020';
+			display: inline-block;
+			width: 50px;
+			height: 33px;
+			position: absolute;
+			right: 0px;
+			bottom: 0;
+		}
+	}
+
+}
+
+
+
+// The Klantverhalen widget
+#klantenvertellenwidget {
+	border: 1px solid @border-color;
+	//padding: 10px;
+	margin-bottom: 50px;
+
+	.klant-review {
+		padding: 10px;
+
+
+		border-top: 1px solid @border-color;
+
+		&.no-border {
+			border-top: none !important;
+		}
+	}
+
+
+
+
+	.heading {
+		padding: 10px;
+		h3 {
+			font-size: 21px;
+			line-height: 22px;
+			margin-bottom: 0;
+		}
+	}
+
+	.score {
+		margin-bottom: 0;
+	}
+
+	.name {
+
+		color: @main-color;
+		font-size: 14px;
+		font-weight: bold;
+	}
+
+	h4.review-link {
+		margin-bottom: 0;
+		font-size: 12px;
+		padding: 10px;
+		padding-top: 0;
+	}
+
+
+	.desc {
+		font-size: 12px;
+	}
+
+	.date {
+		font-size: 10px;
+	}
+
+
+	a.more-reviews {
+		color: @main-color;
+		font-weight: bold !important;
+	}
+
+}
+
+// The header of the klantenvertellen widget
+#postsfromcategorywidget-2 {
+	// padding: 10px;
+	h3 {
+		padding: 10px;
+	}
+	border: 1px solid @border-color;
+}
+
+// The klantenvertellen widget
+#leverancierswidget {
+
+	padding: 5px;
+
+	.leverancier {
+		white-space: nowrap;
+		text-align: center;
+
+		img {
+			  vertical-align: middle !important;
+		}
+
+		a.pdf_link {
+			display: block;
+			height: 100%;
+			width: 50px;
+			background-image: url('../PDF.png');
+			background-position: right center;
+			background-repeat: no-repeat;
+		}
+
+		&:before {
+			content: "";
+	    	display: inline-block;
+	    	vertical-align: middle;
+		}
+
+		.kbp-column-8 {
+			display: table !important;
+
+			img {
+				vertical-align: middle !important;
+			}
+		}
+	}
+
+}
+
+// Bootstrap responsive image class
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+
+// CSS trick for above
+.leverancier_before {
+	content: "";
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+

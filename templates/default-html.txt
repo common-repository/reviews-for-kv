@@ -1,0 +1,255 @@
+a:7:{s:13:"current_color";s:7:"#000000";s:7:"general";s:2695:"&lt;h3 class=&quot;klantenvertellen-center&quot;&gt;Klanten van &lt;UW BEDRIJFNAAM HIER&gt; geven gemiddeld een:&lt;/h3&gt;
+
+&lt;div class=&quot;klantenvertellen-general-loop&quot;&gt;
+	&lt;div class=&quot;klantenvertellen-left&quot;&gt;
+		&lt;span class=&quot;klantenvertellen-big-average&quot;&gt;
+			%gemiddelde%
+		&lt;/span&gt;
+		&lt;span id=&quot;klantenvertellen-customers&quot;&gt;
+			Gebaseerd op %aantalbeoordelingen% onafhankelijke beoordelingen via klantenvertellen.nl.
+			%percentageaanbeveling%% van de klanten beveelt &lt;UW WEBSITE HIER&gt; aan!
+		&lt;/span&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;klantenvertellen-center&quot;&gt;
+		&lt;table&gt;
+
+			&lt;tr&gt;
+				&lt;td class=&quot;klantenvertellen-label&quot;&gt;
+					Totaal oordeel
+				&lt;/td&gt;
+				&lt;td class=&quot;klantenvertellen-rating&quot;&gt;
+					%totaal_oordeel%
+				&lt;/td&gt;
+			&lt;/tr&gt;
+
+			&lt;tr&gt;
+				&lt;td class=&quot;klantenvertellen-label&quot;&gt;
+					&lt;UW TYPE HIER&gt;
+				&lt;/td&gt;
+				&lt;td class=&quot;klantenvertellen-rating&quot;&gt;
+					&lt;Zet de cursor hier neer en kies een tag hieronder&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td class=&quot;klantenvertellen-label&quot;&gt;
+					&lt;UW TYPE HIER&gt;
+				&lt;/td&gt;
+				&lt;td class=&quot;klantenvertellen-rating&quot;&gt;
+					&lt;Zet de cursor hier neer en kies een tag hieronder&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td class=&quot;klantenvertellen-label&quot;&gt;
+					&lt;UW TYPE HIER&gt;
+				&lt;/td&gt;
+				&lt;td class=&quot;klantenvertellen-rating&quot;&gt;
+					&lt;Zet de cursor hier neer en kies een tag hieronder&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+
+
+		&lt;/table&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;klantenvertellen-right&quot;&gt;
+		&lt;table&gt;
+		
+			&lt;tr&gt;
+				&lt;td class=&quot;klantenvertellen-label&quot;&gt;
+					&lt;UW TYPE HIER&gt;
+				&lt;/td&gt;
+				&lt;td class=&quot;klantenvertellen-rating&quot;&gt;
+					&lt;Zet de cursor hier neer en kies een tag hieronder&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td class=&quot;klantenvertellen-label&quot;&gt;
+				 	&lt;UW TYPE HIER&gt;
+				&lt;/td&gt;
+				&lt;td class=&quot;klantenvertellen-rating&quot;&gt;
+					&lt;Zet de cursor hier neer en kies een tag hieronder&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td class=&quot;klantenvertellen-label&quot;&gt;
+					&lt;UW TYPE HIER&gt;
+				&lt;/td&gt;
+				&lt;td class=&quot;klantenvertellen-rating&quot;&gt;
+					&lt;Zet de cursor hier neer en kies een tag hieronder&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+
+		&lt;/table&gt;
+	&lt;/div&gt;
+&lt;/div&gt;";s:11:"loop_single";s:2737:"			&lt;article class=&quot;klantenvertellen-loop&quot;&gt;
+	&lt;div class=&quot;klantenvertellen-loop-header&quot;&gt;
+		%voornaam% uit %uit%
+		&lt;span class=&quot;klantenvertellen-loop-datum&quot;&gt;
+			%datum%
+		&lt;/span&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;klantenvertellen-loop-data&quot;&gt;
+		
+	&lt;/div&gt;
+	&lt;div class=&quot;klantenvertellen-left&quot;&gt;
+		&lt;table&gt;
+
+			&lt;tr&gt;
+				&lt;td class=&quot;klantenvertellen-label&quot;&gt;
+					Totaal oordeel
+				&lt;/td&gt;
+				&lt;td class=&quot;klantenvertellen-rating&quot;&gt;
+					%totaal_oordeel%
+				&lt;/td&gt;
+			&lt;/tr&gt;
+
+			&lt;tr&gt;
+				&lt;td class=&quot;klantenvertellen-label&quot;&gt;
+					&lt;UW TYPE HIER&gt;
+				&lt;/td&gt;
+				&lt;td class=&quot;klantenvertellen-rating&quot;&gt;
+					&lt;Zet de cursor hier neer en kies een tag hieronder&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td class=&quot;klantenvertellen-label&quot;&gt;
+					&lt;UW TYPE HIER&gt;
+				&lt;/td&gt;
+				&lt;td class=&quot;klantenvertellen-rating&quot;&gt;
+					&lt;Zet de cursor hier neer en kies een tag hieronder&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td class=&quot;klantenvertellen-label&quot;&gt;
+					&lt;UW TYPE HIER&gt;
+				&lt;/td&gt;
+				&lt;td class=&quot;klantenvertellen-rating&quot;&gt;
+					&lt;Zet de cursor hier neer en kies een tag hieronder&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+
+		&lt;/table&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;klantenvertellen-right&quot;&gt;
+		&lt;table&gt;
+		
+			&lt;tr&gt;
+				&lt;td class=&quot;klantenvertellen-label&quot;&gt;
+					&lt;UW TYPE HIER&gt;
+				&lt;/td&gt;
+				&lt;td class=&quot;klantenvertellen-rating&quot;&gt;
+					&lt;Zet de cursor hier neer en kies een tag hieronder&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td class=&quot;klantenvertellen-label&quot;&gt;
+				 	&lt;UW TYPE HIER&gt;
+				&lt;/td&gt;
+				&lt;td class=&quot;klantenvertellen-rating&quot;&gt;
+					&lt;Zet de cursor hier neer en kies een tag hieronder&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td class=&quot;klantenvertellen-label&quot;&gt;
+					&lt;UW TYPE HIER&gt;
+				&lt;/td&gt;
+				&lt;td class=&quot;klantenvertellen-rating&quot;&gt;
+					&lt;Zet de cursor hier neer en kies een tag hieronder&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			
+		&lt;/table&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;klantenvertellen-average&quot;&gt;
+		Gemiddelde cijfer: &lt;span class=&quot;klantenvertellen-big-average&quot;&gt;%gemiddelde%&lt;/span&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;klantenvertellen-experience&quot;&gt;
+		&lt;Zet de cursor hier neer en kies een tag hieronder&gt;
+	&lt;/div&gt;
+&lt;/article&gt;		";s:11:"loop_review";s:2737:"			&lt;article class=&quot;klantenvertellen-loop&quot;&gt;
+	&lt;div class=&quot;klantenvertellen-loop-header&quot;&gt;
+		%voornaam% uit %uit%
+		&lt;span class=&quot;klantenvertellen-loop-datum&quot;&gt;
+			%datum%
+		&lt;/span&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;klantenvertellen-loop-data&quot;&gt;
+		
+	&lt;/div&gt;
+	&lt;div class=&quot;klantenvertellen-left&quot;&gt;
+		&lt;table&gt;
+
+			&lt;tr&gt;
+				&lt;td class=&quot;klantenvertellen-label&quot;&gt;
+					Totaal oordeel
+				&lt;/td&gt;
+				&lt;td class=&quot;klantenvertellen-rating&quot;&gt;
+					%totaal_oordeel%
+				&lt;/td&gt;
+			&lt;/tr&gt;
+
+			&lt;tr&gt;
+				&lt;td class=&quot;klantenvertellen-label&quot;&gt;
+					&lt;UW TYPE HIER&gt;
+				&lt;/td&gt;
+				&lt;td class=&quot;klantenvertellen-rating&quot;&gt;
+					&lt;Zet de cursor hier neer en kies een tag hieronder&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td class=&quot;klantenvertellen-label&quot;&gt;
+					&lt;UW TYPE HIER&gt;
+				&lt;/td&gt;
+				&lt;td class=&quot;klantenvertellen-rating&quot;&gt;
+					&lt;Zet de cursor hier neer en kies een tag hieronder&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td class=&quot;klantenvertellen-label&quot;&gt;
+					&lt;UW TYPE HIER&gt;
+				&lt;/td&gt;
+				&lt;td class=&quot;klantenvertellen-rating&quot;&gt;
+					&lt;Zet de cursor hier neer en kies een tag hieronder&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+
+		&lt;/table&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;klantenvertellen-right&quot;&gt;
+		&lt;table&gt;
+		
+			&lt;tr&gt;
+				&lt;td class=&quot;klantenvertellen-label&quot;&gt;
+					&lt;UW TYPE HIER&gt;
+				&lt;/td&gt;
+				&lt;td class=&quot;klantenvertellen-rating&quot;&gt;
+					&lt;Zet de cursor hier neer en kies een tag hieronder&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td class=&quot;klantenvertellen-label&quot;&gt;
+				 	&lt;UW TYPE HIER&gt;
+				&lt;/td&gt;
+				&lt;td class=&quot;klantenvertellen-rating&quot;&gt;
+					&lt;Zet de cursor hier neer en kies een tag hieronder&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td class=&quot;klantenvertellen-label&quot;&gt;
+					&lt;UW TYPE HIER&gt;
+				&lt;/td&gt;
+				&lt;td class=&quot;klantenvertellen-rating&quot;&gt;
+					&lt;Zet de cursor hier neer en kies een tag hieronder&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			
+		&lt;/table&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;klantenvertellen-average&quot;&gt;
+		Gemiddelde cijfer: &lt;span class=&quot;klantenvertellen-big-average&quot;&gt;%gemiddelde%&lt;/span&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;klantenvertellen-experience&quot;&gt;
+		&lt;Zet de cursor hier neer en kies een tag hieronder&gt;
+	&lt;/div&gt;
+&lt;/article&gt;		";s:14:"items_per_page";s:2:"10";s:17:"items_on_homepage";s:1:"1";s:13:"show_reaction";s:0:"";}

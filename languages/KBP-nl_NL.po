@@ -1,0 +1,227 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Klantenvertellen Reviews\n"
+"POT-Creation-Date: 2016-01-15 08:40+0100\n"
+"PO-Revision-Date: 2016-01-15 08:41+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: reviews-for-kv.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-admin.php:34
+msgid "by Prodes"
+msgstr "door Prodes"
+
+#: admin/class-admin.php:35 admin/class-admin.php:269
+msgid "Settings"
+msgstr "Instellingen"
+
+#: admin/class-admin.php:41 admin/class-admin.php:268
+msgid "Configurator"
+msgstr ""
+
+#: admin/class-admin.php:51 admin/class-admin.php:132
+msgid "You do not have sufficient permissions to access this page."
+msgstr "U heeft onvoldoende rechten om deze pagina te bekijken."
+
+#: admin/class-admin.php:108
+msgid "Saved changes"
+msgstr "Wijzigingen opgeslagen"
+
+#: admin/class-admin.php:115 admin/class-admin.php:119
+#: admin/class-admin.php:235 admin/class-admin.php:239
+msgid "Settings NOT saved due to a failed security check."
+msgstr "Instellingen NIET opgeslagen vanwege een mislukte veiligheidscontrole."
+
+#: admin/class-admin.php:150
+msgid ""
+"Settings NOT saved due to an invalid XML file. Please try again with the "
+"correct URL."
+msgstr ""
+"Instellingen NIET opgeslagen vanwege een ongeldig XML-bestand. Probeer het "
+"opnieuw met de juiste URL."
+
+#: admin/class-admin.php:228 admin/pages/kbp-settings.php:32
+#, php-format
+msgid "%d fields of Klantenvertellen have been indexed"
+msgstr "%d velden van Klantenvertellen zijn geïndexeerd"
+
+#: admin/pages/kbp-configurator.php:2
+msgid "Klantenvertellen configurator"
+msgstr ""
+
+#: admin/pages/kbp-configurator.php:5
+msgid ""
+"This plugin uses three different shortcodes to display the reviews from "
+"klantenvertellen.nl"
+msgstr ""
+"Deze plugin gebruikt drie verschillende stortcodes om beoordelingen van "
+"klantenvertellen.nl te tonen"
+
+#: admin/pages/kbp-configurator.php:6
+msgid "\"kbp_general\" - displays the general statistics"
+msgstr "“kbp_general” - toont de algemene statistieken"
+
+#: admin/pages/kbp-configurator.php:7
+msgid "\"kbp_loop\"    - displays the reviews from customers"
+msgstr "“kbp_loop” - toont de beoordelingen van klanten"
+
+#: admin/pages/kbp-configurator.php:8
+msgid ""
+"\"kbp_review\"  - displays the last few reviews from customer depending on "
+"the settings"
+msgstr ""
+"“kbp_review” - toont de laatste paar beoordelingen van klanten gebaseerd op "
+"de instellingen"
+
+#: admin/pages/kbp-configurator.php:9
+msgid "Usage:"
+msgstr "Gebruikwijze:"
+
+#: admin/pages/kbp-configurator.php:10
+msgid ""
+"Place the shortcode in your page and the plugin will do the rest for you."
+msgstr "Plaats de shortcode op je pagina en de plugin doet de rest voor je."
+
+#: admin/pages/kbp-configurator.php:11
+msgid "Example: [kbp_general]"
+msgstr "Voorbeeld: [kbp_general]"
+
+#: admin/pages/kbp-configurator.php:80
+msgid "Pick a color for the average"
+msgstr "Kies een kleur voor het gemiddelde"
+
+#: admin/pages/kbp-configurator.php:83
+msgid "General review data for the \"kbp_general\" shortcode"
+msgstr "Algemene beoordeling gegevens voor de “kbp_general” shortcode"
+
+#: admin/pages/kbp-configurator.php:88 admin/pages/kbp-configurator.php:121
+#: admin/pages/kbp-configurator.php:204
+msgid "Add tag to the HTML above"
+msgstr "Voeg tag toe aan de HTML hierboven"
+
+#: admin/pages/kbp-configurator.php:95 admin/pages/kbp-configurator.php:128
+#: admin/pages/kbp-configurator.php:163 admin/pages/kbp-configurator.php:210
+msgid "Select an option"
+msgstr "Selecteer een optie"
+
+#: admin/pages/kbp-configurator.php:107 admin/pages/kbp-configurator.php:140
+#: admin/pages/kbp-configurator.php:222
+msgid "Index all the XML fields first on the settings page"
+msgstr "Indexeer alle XML velden eerst op de instellingen pagina"
+
+#: admin/pages/kbp-configurator.php:114
+msgid "Single reviews for the \"kbp_loop\" shortcode"
+msgstr "Enkele beoordelingen voor de “kbp_loop” shortcode"
+
+#: admin/pages/kbp-configurator.php:153
+msgid "Show reactions?"
+msgstr "Reacties tonen?"
+
+#: admin/pages/kbp-configurator.php:159
+msgid "Which field is the reaction field?"
+msgstr "Welk veld is het reactie veld?"
+
+#: admin/pages/kbp-configurator.php:173
+msgid ""
+"How many single reviews do you want to show with the \"kbp_loop\" shortcode"
+msgstr ""
+"Hoeveel enkele beoordelingen wil je laten zien met de “kbp_loop” shortcode"
+
+#: admin/pages/kbp-configurator.php:179
+msgid "All reviews"
+msgstr "Alle beoordelingen"
+
+#: admin/pages/kbp-configurator.php:197
+msgid "Single reviews for the \"kbp_review\" shortcode"
+msgstr "Enkele beoordelingen voor de “kbp_review” shortcode"
+
+#: admin/pages/kbp-configurator.php:229
+msgid ""
+"How many single reviews do you want to show with the \"kbp_review\" shortcode"
+msgstr ""
+"Hoeveel enkele beoordelingen wil je laten zien met de “kbp_review” shortcode"
+
+#: admin/pages/kbp-configurator.php:254
+msgid "Save changes"
+msgstr "Wijzigingen opslaan"
+
+#: admin/pages/kbp-settings.php:3
+msgid "Klantenvertellen by Prodes plugin settings"
+msgstr "Klantenvertellen door Prodes plugin instellingen"
+
+#: admin/pages/kbp-settings.php:31
+#, php-format
+msgid "Klantenvertellen fields were updated on: %s"
+msgstr "Klantenvertellen velden zijn voor het laatst geüpdatet op: %s"
+
+#: admin/pages/kbp-settings.php:33
+#, php-format
+msgid "The current URL for the Klantenvertellen XML is: <a href=%s>%s</a>"
+msgstr "De huidige URL voor de Klantenvertellen XML is: <a href=%s>%s</a>"
+
+#: admin/pages/kbp-settings.php:42
+msgid "Enter the URL of the XML here"
+msgstr "Voer de URL van de XML hier in"
+
+#: admin/pages/kbp-settings.php:48
+msgid "Index fields"
+msgstr "Indexeer velden"
+
+#: class-shortcode.php:30 class-shortcode.php:80 class-shortcode.php:166
+msgid ""
+"Get the XML fields from the URL and create your HTML for the shortcodes in "
+"the configurator."
+msgstr ""
+"Haal de XML velden op van de URL en maak je HTML voor de shortcodes aan in "
+"de configurator."
+
+#: class-shortcode.php:58 class-shortcode.php:145 class-shortcode.php:203
+#, php-format
+msgid "No %s available"
+msgstr "Geen %s beschikbaar"
+
+#: templates/start-klantenvertellenwidget.php:5
+msgid "Klantenvertellen"
+msgstr ""
+
+#: widgets/KlantenvertellenWidget.php:15
+msgid "Shows the last review"
+msgstr "Toont de laatste herziening"
+
+#: widgets/KlantenvertellenWidget.php:98
+msgid "This widget shows the latest reviews"
+msgstr "Deze widget toont de laatste reviews"
+
+#. Plugin Name of the plugin/theme
+msgid "Klantenvertellen Reviews"
+msgstr "Klantenvertellen Reviews"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.prodes.nl/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Show your klantenvertellen.nl reviews on your website in an easy way."
+msgstr ""
+"Toon uw klantenvertellen.nl reviews op uw website op een eenvoudige manier."
+
+#. Author of the plugin/theme
+msgid "Prodes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.prodes.nl"
+msgstr ""

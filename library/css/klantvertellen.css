@@ -1,0 +1,378 @@
+p.kbp-settings {
+  font-size: 16px;
+  line-height: 22px;
+}
+label h4 {
+  margin-bottom: 5px;
+}
+input[type="text"].xml-url {
+  padding: 10px;
+  font-size: 14px;
+}
+.big-textarea {
+  height: 200px;
+  width: 95%;
+  resize: none;
+}
+.xml-url {
+  width: 450px;
+  min-width: 25%;
+}
+.extra-space {
+  margin-bottom: 30px;
+}
+.pdf-large {
+  font-size: 30px !important;
+}
+.klantenvertellen-center {
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .klantenvertellen-general-loop .klantenvertellen-left,
+  .klantenvertellen-general-loop .klantenvertellen-center,
+  .klantenvertellen-general-loop .klantenvertellen-right {
+    width: 100% !important;
+    float: none !important;
+    display: block !important;
+  }
+  .klantenvertellen-loop .klantenvertellen-left,
+  .klantenvertellen-loop .klantenvertellen-right {
+    width: 100% !important;
+    float: none !important;
+    display: block !important;
+  }
+  .kbp-column-4,
+  .kbp-column-6,
+  .kbp-column-12 {
+    width: 100% !important;
+    padding: 0 !important;
+    float: none !important;
+  }
+  .klantenvertellen-loop .klantenvertellen-experience {
+    width: 70% !important;
+  }
+  .klantenvertellen-review .klantenvertellen-experience {
+    width: 80% !important;
+  }
+  .klantenvertellen-review .klantenvertellen-experience:before {
+    left: -40px !important;
+  }
+  .klantenvertellen-review .klantenvertellen-experience:after {
+    right: -20px !important;
+  }
+}
+@media (max-width: 992px) {
+  .klantenvertellen-general-loop .klantenvertellen-left,
+  .klantenvertellen-general-loop .klantenvertellen-center,
+  .klantenvertellen-general-loop .klantenvertellen-right {
+    width: 100% !important;
+    float: none !important;
+    display: block !important;
+  }
+  .klantenvertellen-loop .klantenvertellen-left,
+  .klantenvertellen-loop .klantenvertellen-right {
+    width: 100% !important;
+    float: none !important;
+    display: block !important;
+  }
+}
+#nxs-container .klantenvertellen-general-loop .klantenvertellen-left table,
+#nxs-container .klantenvertellen-loop .klantenvertellen-left table,
+#nxs-container .klantenvertellen-general-loop .klantenvertellen-center table,
+#nxs-container .klantenvertellen-loop .klantenvertellen-center table,
+#nxs-container .klantenvertellen-general-loop .klantenvertellen-right table,
+#nxs-container .klantenvertellen-loop .klantenvertellen-right table {
+  border: none !important;
+}
+#nxs-container .klantenvertellen-general-loop .klantenvertellen-left table td,
+#nxs-container .klantenvertellen-loop .klantenvertellen-left table td,
+#nxs-container .klantenvertellen-general-loop .klantenvertellen-center table td,
+#nxs-container .klantenvertellen-loop .klantenvertellen-center table td,
+#nxs-container .klantenvertellen-general-loop .klantenvertellen-right table td,
+#nxs-container .klantenvertellen-loop .klantenvertellen-right table td {
+  width: 78%;
+}
+.klantenvertellen-general-loop .klantenvertellen-left,
+.klantenvertellen-general-loop .klantenvertellen-center,
+.klantenvertellen-general-loop .klantenvertellen-right {
+  width: 33%;
+  display: inline-block;
+  float: left;
+}
+.klantenvertellen-general-loop .klantenvertellen-left table,
+.klantenvertellen-general-loop .klantenvertellen-center table,
+.klantenvertellen-general-loop .klantenvertellen-right table {
+  border: none !important;
+  background-color: transparent !important;
+}
+.klantenvertellen-general-loop .klantenvertellen-left table tr,
+.klantenvertellen-general-loop .klantenvertellen-center table tr,
+.klantenvertellen-general-loop .klantenvertellen-right table tr {
+  background: none !important;
+}
+.klantenvertellen-general-loop .klantenvertellen-left table tr td,
+.klantenvertellen-general-loop .klantenvertellen-center table tr td,
+.klantenvertellen-general-loop .klantenvertellen-right table tr td {
+  text-align: left;
+  border: none !important;
+}
+.klantenvertellen-general-loop .klantenvertellen-left {
+  margin-top: 20px;
+}
+.klantenvertellen-general-loop .klantenvertellen-center,
+.klantenvertellen-general-loop .klantenvertellen-right {
+  margin-top: 50px;
+}
+.klantenvertellen-general-loop .klantenvertellen-big-average {
+  font-size: 50px;
+  line-height: 100px;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.klantenvertellen-general-loop #klantenvertellen-customers {
+  font-size: 16px;
+  line-height: 20px;
+  color: black;
+}
+.klantenvertellen-label {
+  line-height: 14px !important;
+  font-size: 12px !important;
+}
+.klantenvertellen-rating {
+  font-weight: bold;
+  font-size: 18px;
+}
+.klantenvertellen-loop {
+  clear: both;
+  border-bottom: 3px solid #ececec;
+  margin-top: 50px;
+}
+.klantenvertellen-loop:first-of-type {
+  margin-top: 0px !important;
+}
+.klantenvertellen-loop .klantenvertellen-loop-header {
+  font-size: 20px;
+  border-bottom: 2px solid #cecece;
+}
+.klantenvertellen-loop .klantenvertellen-loop-header span.klantenvertellen-loop-datum {
+  font-size: 14px;
+}
+.klantenvertellen-loop .klantenvertellen-loop-data {
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 12px;
+}
+.klantenvertellen-loop .klantenvertellen-left,
+.klantenvertellen-loop .klantenvertellen-right {
+  margin-top: 25px;
+  width: 50%;
+  float: left;
+}
+.klantenvertellen-loop .klantenvertellen-left table,
+.klantenvertellen-loop .klantenvertellen-right table {
+  border: none !important;
+  background-color: transparent !important;
+}
+.klantenvertellen-loop .klantenvertellen-left table tr,
+.klantenvertellen-loop .klantenvertellen-right table tr {
+  background: none !important;
+}
+.klantenvertellen-loop .klantenvertellen-left table tr td,
+.klantenvertellen-loop .klantenvertellen-right table tr td {
+  border: none !important;
+}
+.klantenvertellen-loop .klantenvertellen-average {
+  display: block;
+  font-size: 30px;
+  line-height: 52px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  clear: both;
+  text-align: right;
+}
+.klantenvertellen-loop .klantenvertellen-average .klantenvertellen-big-average {
+  font-size: 45px;
+  line-height: 100px;
+  font-weight: bold;
+}
+.klantenvertellen-loop .klantenvertellen-experience {
+  position: relative;
+  width: 90%;
+  display: block;
+  font-size: 15px;
+  line-height: 1.625;
+  font-style: italic;
+  text-align: center;
+  padding: 20px 40px;
+  margin: 0 auto;
+}
+.klantenvertellen-loop .klantenvertellen-experience:before {
+  background-image: url('../img/blockquote-before.png');
+  content: '\0020';
+  position: absolute;
+  left: 0px;
+  display: inline-block;
+  width: 50px;
+  height: 33px;
+}
+.klantenvertellen-loop .klantenvertellen-experience:after {
+  background-image: url('../img/blockquote-after.png');
+  content: '\0020';
+  display: inline-block;
+  width: 50px;
+  height: 33px;
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+}
+.klantenvertellen-loop-reaction {
+  display: block;
+  font-size: 15px;
+  line-height: 1.625;
+  font-style: italic;
+  text-align: center;
+  margin: 20px 40px;
+}
+.kbp-column-4 {
+  width: 30%;
+  float: left;
+  padding: 0 15px;
+}
+.kbp-column-6 {
+  width: 45%;
+  float: left;
+  padding: 0 15px;
+}
+.kbp-column-12 {
+  width: 100%;
+  float: left;
+  padding: 0 15px;
+}
+.klantenvertellen-review .klantenvertellen-review-header {
+  border-bottom: 2px solid #cecece;
+}
+.klantenvertellen-review .klantenvertellen-review-data .klantenvertellen-review-average {
+  float: right;
+  font-size: 17px;
+}
+.klantenvertellen-review .klantenvertellen-experience {
+  position: relative;
+  width: 90%;
+  display: block;
+  font-size: 15px;
+  line-height: 1.625;
+  font-style: italic;
+  text-align: center;
+  padding: 20px 40px;
+  margin: 0 auto;
+}
+.klantenvertellen-review .klantenvertellen-experience:before {
+  background-image: url('../img/blockquote-before.png');
+  content: '\0020';
+  position: absolute;
+  left: 0px;
+  display: inline-block;
+  width: 50px;
+  height: 33px;
+}
+.klantenvertellen-review .klantenvertellen-experience:after {
+  background-image: url('../img/blockquote-after.png');
+  content: '\0020';
+  display: inline-block;
+  width: 50px;
+  height: 33px;
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+}
+#klantenvertellenwidget {
+  border: 1px solid #bebed5;
+  margin-bottom: 50px;
+}
+#klantenvertellenwidget .klant-review {
+  padding: 10px;
+  border-top: 1px solid #bebed5;
+}
+#klantenvertellenwidget .klant-review.no-border {
+  border-top: none !important;
+}
+#klantenvertellenwidget .heading {
+  padding: 10px;
+}
+#klantenvertellenwidget .heading h3 {
+  font-size: 21px;
+  line-height: 22px;
+  margin-bottom: 0;
+}
+#klantenvertellenwidget .score {
+  margin-bottom: 0;
+}
+#klantenvertellenwidget .name {
+  color: #292873;
+  font-size: 14px;
+  font-weight: bold;
+}
+#klantenvertellenwidget h4.review-link {
+  margin-bottom: 0;
+  font-size: 12px;
+  padding: 10px;
+  padding-top: 0;
+}
+#klantenvertellenwidget .desc {
+  font-size: 12px;
+}
+#klantenvertellenwidget .date {
+  font-size: 10px;
+}
+#klantenvertellenwidget a.more-reviews {
+  color: #292873;
+  font-weight: bold !important;
+}
+#postsfromcategorywidget-2 {
+  border: 1px solid #bebed5;
+}
+#postsfromcategorywidget-2 h3 {
+  padding: 10px;
+}
+#leverancierswidget {
+  padding: 5px;
+}
+#leverancierswidget .leverancier {
+  white-space: nowrap;
+  text-align: center;
+}
+#leverancierswidget .leverancier img {
+  vertical-align: middle !important;
+}
+#leverancierswidget .leverancier a.pdf_link {
+  display: block;
+  height: 100%;
+  width: 50px;
+  background-image: url('../PDF.png');
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+#leverancierswidget .leverancier:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+}
+#leverancierswidget .leverancier .kbp-column-8 {
+  display: table !important;
+}
+#leverancierswidget .leverancier .kbp-column-8 img {
+  vertical-align: middle !important;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.leverancier_before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
